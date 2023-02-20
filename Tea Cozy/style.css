@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+}
+header {
+    text-decoration: underline;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    display: block;
+    top: 0px;
+}
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: seashell;
+   
+}
+
+.mainpic {
+    height: 50px;
+    padding: 10px;
+    font-size: 22px;
+    float: left;
+}
+.headermenu {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Main */
+.main {
+    height: 700px;
+    width: 1200px;
+    background-image: url(/img/2.jpg);
+    margin: 40px auto 40px auto;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* position: relative; */
+}
+.main-center {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    
+
+}
+
+
+/* mouth */
+
+.container {
+    display: inline-flex;
+    max-width:  1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+   
+    
+}
+
+.teaMonth {
+    text-align: center;
+    
+}
+
+/* location */
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding-top: 85px;
+    background-image: url(/img/locations.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.box{
+    background-color: black;
+    width: 300px;
+    max-width: auto 40px;
+    flex-direction: row;
+    flex-basis: 30%;
+
+}
+.text-top {
+    font-size: 43px;
+    font-weight: bold;
+    color: seashell ;
+    margin: 40px auto;
+    
+}
+.box-container {
+    max-width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 auto;
+    opacity: 0.9;
+}
+/* footer */
+
+before-footer {
+    max-height: 200px;
+}
+footer {
+    text-align: left;
+    margin: 20px;
+    color: seashell;
+}
